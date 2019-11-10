@@ -21,6 +21,7 @@ module.exports = {
   isProduction,
   isDevelopment,
   isTest,
+  db: process.env.MONGODB_URI || 'mongodb://carlosg:elclasicox1x@carloscluster-shard-00-00-pgwzh.mongodb.net:27017,carloscluster-shard-00-01-pgwzh.mongodb.net:27017,carloscluster-shard-00-02-pgwzh.mongodb.net:27017/TusTareas?ssl=true&replicaSet=CarlosCluster-shard-0&authSource=admin&retryWrites=true&w=majority',
 
   // JWT config
   JWT: {

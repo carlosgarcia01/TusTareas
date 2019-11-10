@@ -4,7 +4,7 @@ const expressErrorHandler = require('@kazaar/express-error-handler');
 const helmet = require('helmet');
 
 const api = require('./api');
-const { host, port, env } = require('./config');
+const { host, port, env,db } = require('./config');
 const logger = require('./config/logger');
 
 const { httpErrorHandler, handleServerError, celebrateErrorParser } = expressErrorHandler(logger);
@@ -13,6 +13,7 @@ const { httpErrorHandler, handleServerError, celebrateErrorParser } = expressErr
  * Express server initialization
  */
 const app = express();
+const mongoose = require('mongoose');
 
 app.set('host', host);
 app.set('port', port);
@@ -42,10 +43,21 @@ app.use(httpErrorHandler);
 /**
  * Server start
  */
-app
+
+mongoose.connect(db, (err, res) => {
+  if (err) {
+    return console.log('Error al conectar a la base de datos: '+err)
+  }
+  console.log('Conexión a la base de datos establecida...')
+  
+ 
+  app
   .listen(port, host, () => {
     logger.info(`App is running at ${host}:${port} in ${env} mode`);
   })
   .on('error', handleServerError);
+ 
+})
+
 
 module.exports = app;

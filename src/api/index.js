@@ -4,6 +4,20 @@ const morgan = require('morgan');
 
 const logger = require('../config/logger');
 
+
+//owns imports routes
+const anuncio_routes = require('./routes/anuncio.routes');
+const notificacion_routes= require('./routes/notificacion.routes');
+const asignature_routes=require('./routes/asignatura.routes');
+const calificacion_routes=require('./routes/calificacion.routes');
+const tipo_asignatura_routes=require('./routes/tipo_asignatura.routes');
+const sugerencia_routes=require('./routes/sugerencia.routes');
+const usuario_routes=require('./routes/usuario.routes');
+
+
+
+
+
 const router = Router();
 
 /**
@@ -24,6 +38,16 @@ router.use(
  * API routes
  */
 router.get('/', (req, res) => res.sendStatus(200));
+
+//owns routes
+router.use('/anuncios', anuncio_routes);
+router.use('/notificaciones',notificacion_routes);
+router.use('/asignatures',asignature_routes);
+router.use('/calificaciones',calificacion_routes);
+router.use('/sugerencias',sugerencia_routes);
+router.use('/tipo_asignatures',tipo_asignatura_routes);
+router.use('/users',usuario_routes);
+
 
 /**
  * 404 error handling

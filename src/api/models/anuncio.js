@@ -1,5 +1,5 @@
 const mongoose= require('mongoose');
-const Schema = mongoose.schema;
+const Schema = mongoose.Schema;
 const Asignatura = require('./asignatura');
 
 const AnuncioSchema = new Schema({
@@ -8,8 +8,8 @@ const AnuncioSchema = new Schema({
     descripción:{type:String,require:true,unique:false},
     tarifa_hora:{type:Number,require:true,unique:false},
     tipo_asignatura:{type:Schema.Types.ObjectId, ref:Asignatura, require:true} 
-})
+});
 
 
-mongoose.model('Anuncio',AnuncioSchema);
+module.exports= mongoose.model('Anuncio',AnuncioSchema);
 

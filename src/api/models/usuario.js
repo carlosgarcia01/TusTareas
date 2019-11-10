@@ -1,5 +1,5 @@
 const mongoose= require('mongoose');
-const Schema = mongoose.schema;
+const Schema = mongoose.Schema;
 const Asignatura = require('./asignatura');
 const Calificacion=require('./calificacion');
 const Anuncio=require('./anuncio');
@@ -16,7 +16,7 @@ const UsuarioSchema = new Schema({
     calificacion:{type:Schema.Types.ObjectId, ref:Asignatura, require:false}, 
     notificacion:{type:Schema.Types.ObjectId, ref:Notificacion, require:false}, 
     anuncio:{type:Schema.Types.ObjectId, ref:Anuncio, require:true} 
-})
+});
 
-mongoose.model('Usuario',UsuarioSchema);
+module.exports=mongoose.model('Usuario',UsuarioSchema);
 
