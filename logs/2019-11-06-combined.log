@@ -1,0 +1,8 @@
+2019-11-06 19:28:25 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-06 19:58:30 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-06 20:02:50 error: 404 - NotFoundError: The route 'GET /api/anuncio_controller' doesn't exist. [GET /api/anuncio_controller - 127.0.0.1]
+2019-11-06 20:02:50 info: [07/Nov/2019:01:02:50 +0000] "GET /api/anuncio_controller HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-06 20:18:14 error: 404 - NotFoundError: The route 'GET /api/anuncios' doesn't exist. [GET /api/anuncios - 127.0.0.1]
+2019-11-06 20:18:14 info: [07/Nov/2019:01:18:14 +0000] "GET /api/anuncios HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+

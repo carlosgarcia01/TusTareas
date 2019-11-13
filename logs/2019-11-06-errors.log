@@ -1,0 +1,2 @@
+2019-11-06 20:02:50 error: 404 - NotFoundError: The route 'GET /api/anuncio_controller' doesn't exist. [GET /api/anuncio_controller - 127.0.0.1]
+2019-11-06 20:18:14 error: 404 - NotFoundError: The route 'GET /api/anuncios' doesn't exist. [GET /api/anuncios - 127.0.0.1]

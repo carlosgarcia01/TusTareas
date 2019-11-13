@@ -1,0 +1,79 @@
+2019-11-07 00:31:21 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 00:32:39 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 00:41:58 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 01:08:27 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 01:10:11 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 01:10:24 error: 500 - TypeError: NotificacionService.getAllAnuncios is not a function [GET /api/notificaciones - 127.0.0.1]
+2019-11-07 01:10:24 info: [07/Nov/2019:06:10:24 +0000] "GET /api/notificaciones HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:16:25 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 01:16:45 error: 500 - TypeError: NotificacionService.getAllAnuncios is not a function [GET /api/notificaciones - 127.0.0.1]
+2019-11-07 01:16:45 info: [07/Nov/2019:06:16:45 +0000] "GET /api/notificaciones HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:21:03 error: 500 - TypeError: NotificacionService.getAllAnuncios is not a function [GET /api/notificaciones - 127.0.0.1]
+2019-11-07 01:21:03 info: [07/Nov/2019:06:21:03 +0000] "GET /api/notificaciones HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:21:05 error: 500 - TypeError: NotificacionService.getAllAnuncios is not a function [GET /api/notificaciones - 127.0.0.1]
+2019-11-07 01:21:05 info: [07/Nov/2019:06:21:05 +0000] "GET /api/notificaciones HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:21:15 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 01:21:30 error: 500 - TypeError: NotificacionService.getAllAnuncios is not a function [GET /api/notificaciones - 127.0.0.1]
+2019-11-07 01:21:30 info: [07/Nov/2019:06:21:30 +0000] "GET /api/notificaciones HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:24:31 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 01:24:35 info: [07/Nov/2019:06:24:35 +0000] "GET /api/notificaciones HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:26:42 error: 404 - NotFoundError: The route 'GET /api/anuncios' doesn't exist. [GET /api/anuncios - 127.0.0.1]
+2019-11-07 01:26:42 info: [07/Nov/2019:06:26:42 +0000] "GET /api/anuncios HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:27:56 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 01:27:57 info: [07/Nov/2019:06:27:57 +0000] "GET /api/anuncios HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:33:49 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 01:33:57 error: 404 - NotFoundError: The route 'GET /api/asignature' doesn't exist. [GET /api/asignature - 127.0.0.1]
+2019-11-07 01:33:57 info: [07/Nov/2019:06:33:57 +0000] "GET /api/asignature HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:34:26 error: 404 - NotFoundError: The route 'GET /api/asignature' doesn't exist. [GET /api/asignature - 127.0.0.1]
+2019-11-07 01:34:26 info: [07/Nov/2019:06:34:26 +0000] "GET /api/asignature HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:34:28 error: 404 - NotFoundError: The route 'GET /api/asignature' doesn't exist. [GET /api/asignature - 127.0.0.1]
+2019-11-07 01:34:28 info: [07/Nov/2019:06:34:28 +0000] "GET /api/asignature HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:34:29 error: 404 - NotFoundError: The route 'GET /api/asignature' doesn't exist. [GET /api/asignature - 127.0.0.1]
+2019-11-07 01:34:29 info: [07/Nov/2019:06:34:29 +0000] "GET /api/asignature HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:34:29 error: 404 - NotFoundError: The route 'GET /api/asignature' doesn't exist. [GET /api/asignature - 127.0.0.1]
+2019-11-07 01:34:29 info: [07/Nov/2019:06:34:29 +0000] "GET /api/asignature HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 01:34:41 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 01:34:44 info: [07/Nov/2019:06:34:44 +0000] "GET /api/asignature HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 13:21:45 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 13:21:55 info: [07/Nov/2019:18:21:55 +0000] "GET /api/notificaciones HTTP/1.1" 304 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 13:22:03 info: [07/Nov/2019:18:22:03 +0000] "GET /api/anuncios HTTP/1.1" 304 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 13:22:11 info: [07/Nov/2019:18:22:11 +0000] "GET /api/asignatures HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 13:22:18 info: [07/Nov/2019:18:22:18 +0000] "GET /api/calificaciones HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 13:22:26 info: [07/Nov/2019:18:22:26 +0000] "GET /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 13:22:36 info: [07/Nov/2019:18:22:36 +0000] "GET /api/tipo_asignatures HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 13:22:45 error: 500 - TypeError: UsuarioService.getAllTipoAsignaturas is not a function [GET /api/usuarios - 127.0.0.1]
+2019-11-07 13:22:45 info: [07/Nov/2019:18:22:45 +0000] "GET /api/usuarios HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 13:23:17 error: 404 - NotFoundError: The route 'GET /api/users' doesn't exist. [GET /api/users - 127.0.0.1]
+2019-11-07 13:23:17 info: [07/Nov/2019:18:23:17 +0000] "GET /api/users HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 13:23:33 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 13:23:36 error: 500 - TypeError: UsuarioService.getAllTipoAsignaturas is not a function [GET /api/users - 127.0.0.1]
+2019-11-07 13:23:36 info: [07/Nov/2019:18:23:36 +0000] "GET /api/users HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 13:24:14 error: 500 - TypeError: UsuarioService.getAllTipoAsignaturas is not a function [GET /api/users - 127.0.0.1]
+2019-11-07 13:24:14 info: [07/Nov/2019:18:24:14 +0000] "GET /api/users HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
+2019-11-07 13:24:22 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-07 13:24:24 info: [07/Nov/2019:18:24:24 +0000] "GET /api/users HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+
