@@ -14,5 +14,15 @@ module.exports={
 
         const tipo_asignatura = await TipoAsignatura.findById(id);
         return tipo_asignatura;
-    }
+    },
+
+    async saveTipoAsignatura(tipo_asignatura)
+    {
+        const received_type = await TipoAsignatura.create(tipo_asignatura);
+        return received_type;
+    },
+
+    
+
+
 } 
