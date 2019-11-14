@@ -1,6 +1,6 @@
  'use strict'
 const mongoose=require('mongoose');
-const Anuncio= require('../api/models/anuncio');
+//const Anuncio= require('../api/models/anuncio');
 
 
 module.exports={
@@ -14,5 +14,11 @@ module.exports={
 
         const anuncio = await Anuncio.findById(id);
         return anuncio;
+    },
+
+    async postAnuncio(anuncioreq)
+    {
+        const anuncioAlmacenado= await anuncioreq.save();
+        return anuncioAlmacenado;
     }
 } 

@@ -13,7 +13,7 @@ const UsuarioSchema = new Schema({
     ocupacion:{type:Number,require:true},
     correo:{type:Number,require:true,unique:true},
     contrasena:{type:Number,require:true},
-    calificacion:{type:Schema.Types.ObjectId, ref:Asignatura, require:false}, 
+    calificacion:{type:Schema.Types.ObjectId, ref:Calificacion, require:false}, 
     notificacion:{type:Schema.Types.ObjectId, ref:Notificacion, require:false}, 
     anuncio:{type:Schema.Types.ObjectId, ref:Anuncio, require:true} 
 });

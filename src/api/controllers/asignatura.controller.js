@@ -1,5 +1,6 @@
 const AsignaturaService = require('../../services/asignatura.service');
- 
+
+
     module.exports = {
       async getAsignatures(req, res, next) {
         const asignatures = await AsignaturaService.getAllAsignatures();
@@ -14,4 +15,7 @@ const AsignaturaService = require('../../services/asignatura.service');
  
         return res.status(200).send({ asignature });
       },
+      
+      
+
     };
