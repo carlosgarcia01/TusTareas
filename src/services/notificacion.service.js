@@ -14,5 +14,11 @@ module.exports={
 
         const notificacion = await Notificacion.findById(id);
         return notificacion;
-    }
+    },
+    async postNotificacion(notificacionreq) {
+      const notificacionAlmacenado = await notificacionreq.save();
+ 
+      return notificacionAlmacenado;
+    },
+
 } 

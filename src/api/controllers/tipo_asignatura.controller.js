@@ -24,6 +24,17 @@ module.exports = {
     newAsignatureType.nombre_tipo= req.body.descripcion;
     const typeAsignature= await TipoAsignaturaService.saveTipoAsignatura(newAsignatureType);
 
+  },
+
+  async postTipoAsignatura(req, res, next) {
+    let tipoAsignaturaRecibida = new TipoAsignatura()
+    tipoAsignaturaRecibida.id =req.body.id;
+    tipoAsignaturaRecibida.nombre =req.body.nombre;
+    
+
+    const tipo_Asignatura_nueva = await tipoAsignaturaRecibida.postTipoAsignatura(tipoAsignaturaRecibida);
+
+    return res.status(200).send({ tipo_Asignatura_nueva});
   }
 
 };

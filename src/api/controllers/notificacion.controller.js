@@ -1,5 +1,5 @@
  const NotificacionService = require('../../services/notificacion.service');
- 
+ const Notificacion = require('../models/notificacion')
     module.exports = {
       async getNotificaciones(req, res, next) {
         const notificaciones = await NotificacionService.getAllNotificationes();
@@ -14,5 +14,16 @@
  
         return res.status(200).send({ notificacion });
       },
+
+      async postNotificacion(req, res, next) {
+        let notificacionRecibida = new Notificacion()
+        notificacionRecibida.id =req.body.id;
+        notificacionRecibida.mensaje =req.body.mensaje;
+        
+ 
+        const notificacion_nueva = await notificacionRecibida.postNotificacion(notificacionRecibida);
+ 
+        return res.status(200).send({ notificacion_nueva});
+      }
     };
  

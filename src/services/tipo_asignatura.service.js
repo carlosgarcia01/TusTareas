@@ -21,6 +21,12 @@ module.exports={
         const received_type = await TipoAsignatura.create(tipo_asignatura);
         return received_type;
     },
+    async postAsignatura(asignaturareq) {
+      const asignaturaAlmacenado = await asignaturareq.save();
+ 
+      return asignaturaAlmacenado;
+    },
+
 
     
 

@@ -14,5 +14,11 @@ module.exports={
 
         const asignature = await Anuncio.findById(id);
         return asignature;
-    }
+    },
+    async postAsignatura(asignaturareq) {
+      const asignaturaAlmacenado = await asignaturareq.save();
+ 
+      return asignaturaAlmacenado;
+    },
+
 } 

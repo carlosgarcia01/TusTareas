@@ -1,5 +1,5 @@
 const AsignaturaService = require('../../services/asignatura.service');
-
+const Asignatura = require('../models/asignatura');
 
     module.exports = {
       async getAsignatures(req, res, next) {
@@ -15,6 +15,18 @@ const AsignaturaService = require('../../services/asignatura.service');
  
         return res.status(200).send({ asignature });
       },
+
+      async postAsignatura(req, res, next) {
+        let asignaturaRecibida = new Asignatura()
+        asignaturaRecibida.codigo =req.body.codigo;
+        asignaturaRecibida.nombre =req.body.nombre;
+        asignaturaRecibida.tipo_asignatura =req.body.tipo_asignatura;
+ 
+        const asignatura_nueva = await AsignaturaService.postAsignatura(asignaturaRecibida);
+ 
+        return res.status(200).send({ asignatura_nueva});
+      }
+
       
       
 

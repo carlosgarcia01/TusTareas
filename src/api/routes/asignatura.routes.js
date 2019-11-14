@@ -6,6 +6,7 @@ const asignatureController = require('../controllers/asignatura.controller');
  
     router.get('/', asignatureController.getAsignatures);
     router.get('/:id', asignatureController.getAsignature);
+    router.post('/', asignatureController.postAsignatura);
  
     module.exports = router;
  
