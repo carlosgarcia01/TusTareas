@@ -14,5 +14,10 @@ module.exports={
 
         const sugerencia = await Sugerencia.findById(id);
         return sugerencia;
+    },
+    async postSugerencia(sugerenciareq)
+    {
+        const sugerenciaAlmacenada= await sugerenciareq.save();
+        return sugerenciaAlmacenada;
     }
 } 

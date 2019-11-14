@@ -6,4 +6,8 @@
 2019-11-13 19:39:40 info: App is running at 0.0.0.0:8080 in development mode
 2019-11-13 19:39:51 info: [14/Nov/2019:00:39:51 +0000] "GET /api/notificaciones HTTP/1.1" 304 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
 
+<<<<<<< HEAD
 2019-11-13 21:30:03 info: App is running at 0.0.0.0:8080 in development mode
+=======
+2019-11-13 20:18:22 info: App is running at 0.0.0.0:8080 in development mode
+>>>>>>> b56b6b5390ae0a92e0adee56cd8be6c2cc54892e

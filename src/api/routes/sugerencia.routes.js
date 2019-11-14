@@ -6,6 +6,6 @@ const sugerenciaController = require('../controllers/sugerencia.controller');
  
     router.get('/', sugerenciaController.getSugerencias);
     router.get('/:id', sugerenciaController.getSugerencia);
- 
+    router.post('/',sugerenciaController.postSugerencia);
     module.exports = router; 
  

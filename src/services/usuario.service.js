@@ -14,5 +14,11 @@ module.exports={
 
         const usuario = await Usuario.findById(id);
         return usuario;
+    },
+
+    async postUsuario(usuarioreq)
+    {
+        const usuarioAlmacenado= await usuarioreq.save();
+        return usuarioAlmacenado;
     }
 } 

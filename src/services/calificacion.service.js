@@ -14,5 +14,11 @@ module.exports={
 
         const calificacion = await Calificacion.findById(id);
         return calificacion;
+    },
+
+    async postCalificacion(calificacionreq)
+    {
+        const calificacionAlmacenada= await calificacionreq.save();
+        return calificacionAlmacenada;
     }
 } 

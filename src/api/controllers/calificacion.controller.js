@@ -1,5 +1,5 @@
 const CalificacionService = require('../../services/calificacion.service');
- 
+const Calificacion = require('../models/calificacion');
     module.exports = {
       async getCalificaciones(req, res, next) {
         const calificaciones = await CalificacionService.getAllCalificationes();
@@ -14,6 +14,19 @@ const CalificacionService = require('../../services/calificacion.service');
  
         return res.status(200).send({ calificacion });
       },
+
+      async postCalificacion(req,res,next)
+      {
+
+        let calificacion_recibida = new Calificacion()
+        calificacion_recibida.puntaje =req.body.puntaje;
+        calificacion_recibida.comentario =req.body.comentario;
+        
+
+        const calificacion_nueva = await CalificacionService.postCalificacion(calificacion_recibida);
+
+        return res.status(200).send({ calificacion_nueva });
+      }
     };
 
  
