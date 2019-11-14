@@ -6,6 +6,6 @@ const calificacionController = require('../controllers/calificacion.controller')
  
     router.get('/', calificacionController.getCalificaciones);
     router.get('/:id', calificacionController.getCalificacion);
- 
+    router.post('/',calificacionController.postCalificacion);
     module.exports = router;
  

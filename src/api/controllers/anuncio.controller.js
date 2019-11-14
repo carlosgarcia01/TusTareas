@@ -26,7 +26,10 @@ const Anuncio = require('../models/anuncio');
         anuncio_recibido.asignatura =req.body.asignatura;
 
         const anuncio_nuevo = await AnuncioService.postAnuncio(anuncio);
+
+        return res.status(200).send({ anuncio_nuevo });
       }
+
     };
 
  
