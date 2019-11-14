@@ -18,13 +18,6 @@ module.exports = {
     return res.status(200).send({ tipo_asignatura });
   },
 
-  async saveTipoAsignatura(req,res,next)
-  {
-    let newAsignatureType=new TipoAsignatura();
-    newAsignatureType.nombre_tipo= req.body.descripcion;
-    const typeAsignature= await TipoAsignaturaService.saveTipoAsignatura(newAsignatureType);
-
-  },
 
   async postTipoAsignatura(req, res, next) {
     let tipoAsignaturaRecibida = new TipoAsignatura()
