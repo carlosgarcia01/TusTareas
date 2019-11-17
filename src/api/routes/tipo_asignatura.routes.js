@@ -6,7 +6,7 @@ const tipoAsignaturaController = require('../controllers/tipo_asignatura.control
  
     router.get('/', tipoAsignaturaController.getTipoAsignaturas);
     router.get('/:id', tipoAsignaturaController.getTipoAsignatura);
-    router.get('/', tipoAsignaturaController.postTipoAsignatura);
+    router.post('/', tipoAsignaturaController.postTipoAsignatura);
  
     module.exports = router; 
  

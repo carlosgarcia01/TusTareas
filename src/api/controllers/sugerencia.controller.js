@@ -19,7 +19,7 @@ module.exports = {
   async postSugerencia(req,res,next)
   {
 
-    let sugerencia_recibida = new Sugerencia()
+    let sugerencia_recibida = new Sugerencia();
     sugerencia_recibida.comentario =req.body.comentario;
 
 

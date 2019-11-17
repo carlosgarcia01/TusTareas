@@ -18,7 +18,7 @@ const Calificacion = require('../models/calificacion');
       async postCalificacion(req,res,next)
       {
 
-        let calificacion_recibida = new Calificacion()
+        let calificacion_recibida = new Calificacion();
         calificacion_recibida.puntaje =req.body.puntaje;
         calificacion_recibida.comentario =req.body.comentario;
         

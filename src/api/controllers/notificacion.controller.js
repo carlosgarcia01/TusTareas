@@ -16,12 +16,11 @@
       },
 
       async postNotificacion(req, res, next) {
-        let notificacionRecibida = new Notificacion()
-        notificacionRecibida.id =req.body.id;
+        let notificacionRecibida = new Notificacion();
+        //notificacionRecibida.id =req.body.id;
         notificacionRecibida.mensaje =req.body.mensaje;
-        
  
-        const notificacion_nueva = await notificacionRecibida.postNotificacion(notificacionRecibida);
+        const notificacion_nueva = await NotificacionService.postNotificacion(notificacionRecibida);
  
         return res.status(200).send({ notificacion_nueva});
       }

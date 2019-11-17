@@ -17,7 +17,7 @@ const Asignatura = require('../models/asignatura');
       },
 
       async postAsignatura(req, res, next) {
-        let asignaturaRecibida = new Asignatura()
+        let asignaturaRecibida = new Asignatura();
         asignaturaRecibida.codigo =req.body.codigo;
         asignaturaRecibida.nombre =req.body.nombre;
         asignaturaRecibida.tipo_asignatura =req.body.tipo_asignatura;

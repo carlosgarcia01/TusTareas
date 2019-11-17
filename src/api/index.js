@@ -42,10 +42,10 @@ router.get('/', (req, res) => res.sendStatus(200));
 //owns routes
 router.use('/anuncios', anuncio_routes);
 router.use('/notificaciones',notificacion_routes);
-router.use('/asignatures',asignature_routes);
+router.use('/asignaturas',asignature_routes);
 router.use('/calificaciones',calificacion_routes);
 router.use('/sugerencias',sugerencia_routes);
-router.use('/tipo_asignatures',tipo_asignatura_routes);
+router.use('/tipo_asignaturas',tipo_asignatura_routes);
 router.use('/users',usuario_routes);
 
 

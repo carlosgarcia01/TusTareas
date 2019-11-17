@@ -1,0 +1,104 @@
+2019-11-17 14:43:25 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-17 14:43:30 info: [17/Nov/2019:19:43:30 +0000] "POST /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 14:43:49 info: [17/Nov/2019:19:43:49 +0000] "GET /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 14:44:25 info: [17/Nov/2019:19:44:25 +0000] "GET /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 14:46:00 info: [17/Nov/2019:19:46:00 +0000] "GET /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 14:47:51 error: 500 - MongoError: E11000 duplicate key error collection: TusTareas.sugerencias index: id_1 dup key: { : null } [POST /api/sugerencias - 127.0.0.1]
+2019-11-17 14:47:51 info: [17/Nov/2019:19:47:51 +0000] "POST /api/sugerencias HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 14:48:21 info: [17/Nov/2019:19:48:21 +0000] "GET /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 14:49:01 info: [17/Nov/2019:19:49:01 +0000] "POST /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:02:37 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-17 15:03:19 error: 404 - NotFoundError: The route 'POST /api/tipo_asignatura' doesn't exist. [POST /api/tipo_asignatura - 127.0.0.1]
+2019-11-17 15:03:19 info: [17/Nov/2019:20:03:19 +0000] "POST /api/tipo_asignatura HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:03:42 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-17 15:03:48 error: 404 - NotFoundError: The route 'POST /api/tipo_asignatura' doesn't exist. [POST /api/tipo_asignatura - 127.0.0.1]
+2019-11-17 15:03:48 info: [17/Nov/2019:20:03:48 +0000] "POST /api/tipo_asignatura HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:04:28 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-17 15:04:41 error: 404 - NotFoundError: The route 'POST /api/tipo_asignatures' doesn't exist. [POST /api/tipo_asignatures - 127.0.0.1]
+2019-11-17 15:04:41 info: [17/Nov/2019:20:04:41 +0000] "POST /api/tipo_asignatures HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:05:03 info: [17/Nov/2019:20:05:03 +0000] "GET /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:05:22 info: [17/Nov/2019:20:05:22 +0000] "GET /api/tipo_asignatures HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:05:58 error: 404 - NotFoundError: The route 'POST /api/tipo_asignatures' doesn't exist. [POST /api/tipo_asignatures - 127.0.0.1]
+2019-11-17 15:05:58 info: [17/Nov/2019:20:05:58 +0000] "POST /api/tipo_asignatures HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:06:13 error: 404 - NotFoundError: The route 'POST /api/tipo_asignatures/' doesn't exist. [POST /api/tipo_asignatures/ - 127.0.0.1]
+2019-11-17 15:06:13 info: [17/Nov/2019:20:06:13 +0000] "POST /api/tipo_asignatures/ HTTP/1.1" 404 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:07:59 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-17 15:08:13 info: [17/Nov/2019:20:08:13 +0000] "GET /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:08:23 error: 500 - TypeError: tipoAsignaturaRecibida.postTipoAsignatura is not a function [POST /api/tipo_asignaturas - 127.0.0.1]
+2019-11-17 15:08:23 info: [17/Nov/2019:20:08:23 +0000] "POST /api/tipo_asignaturas HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:11:19 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-17 15:30:05 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-17 15:30:09 info: [17/Nov/2019:20:30:09 +0000] "GET /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:30:14 info: [17/Nov/2019:20:30:14 +0000] "POST /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:30:45 info: [17/Nov/2019:20:30:45 +0000] "GET /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:33:57 info: [17/Nov/2019:20:33:57 +0000] "GET /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:35:39 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-17 15:35:50 error: 500 - MongoError: E11000 duplicate key error collection: TusTareas.tipoasignaturas index: id_1 dup key: { : null } [POST /api/tipo_asignaturas - 127.0.0.1]
+2019-11-17 15:35:51 info: [17/Nov/2019:20:35:50 +0000] "POST /api/tipo_asignaturas HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:36:38 info: [17/Nov/2019:20:36:38 +0000] "POST /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:38:01 info: [17/Nov/2019:20:38:01 +0000] "GET /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:39:39 error: 500 - MongoError: E11000 duplicate key error collection: TusTareas.tipoasignaturas index: id_1 dup key: { : null } [POST /api/tipo_asignaturas - 127.0.0.1]
+2019-11-17 15:39:39 info: [17/Nov/2019:20:39:39 +0000] "POST /api/tipo_asignaturas HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:39:55 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-17 15:40:00 error: 500 - MongoError: E11000 duplicate key error collection: TusTareas.tipoasignaturas index: id_1 dup key: { : null } [POST /api/tipo_asignaturas - 127.0.0.1]
+2019-11-17 15:40:00 info: [17/Nov/2019:20:40:00 +0000] "POST /api/tipo_asignaturas HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:40:09 info: [17/Nov/2019:20:40:09 +0000] "GET /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:45:54 info: App is running at 0.0.0.0:8080 in development mode
+2019-11-17 15:46:14 error: 500 - MongoError: E11000 duplicate key error collection: TusTareas.tipoasignaturas index: id_1 dup key: { : null } [POST /api/tipo_asignaturas - 127.0.0.1]
+2019-11-17 15:46:14 info: [17/Nov/2019:20:46:14 +0000] "POST /api/tipo_asignaturas HTTP/1.1" 500 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:48:17 info: [17/Nov/2019:20:48:17 +0000] "GET /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:48:19 info: [17/Nov/2019:20:48:19 +0000] "GET /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+
+2019-11-17 15:58:32 info: [17/Nov/2019:20:58:32 +0000] "GET /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "PostmanRuntime/7.19.0"
+
+2019-11-17 16:00:20 info: [17/Nov/2019:21:00:20 +0000] "POST /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "PostmanRuntime/7.19.0"
+
+2019-11-17 16:09:06 info: [17/Nov/2019:21:09:06 +0000] "GET /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "PostmanRuntime/7.19.0"
+
+2019-11-17 16:10:07 error: 500 - MongoError: E11000 duplicate key error collection: TusTareas.sugerencias index: id_1 dup key: { : null } [POST /api/sugerencias - 127.0.0.1]
+2019-11-17 16:10:07 info: [17/Nov/2019:21:10:07 +0000] "POST /api/sugerencias HTTP/1.1" 500 - 127.0.0.1 - - "-" "PostmanRuntime/7.19.0"
+
+2019-11-17 16:14:22 info: [17/Nov/2019:21:14:22 +0000] "POST /api/sugerencias HTTP/1.1" 200 - 127.0.0.1 - - "-" "PostmanRuntime/7.19.0"
+
+2019-11-17 16:16:47 info: [17/Nov/2019:21:16:47 +0000] "GET /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "PostmanRuntime/7.19.0"
+
+2019-11-17 16:17:09 info: [17/Nov/2019:21:17:09 +0000] "POST /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "PostmanRuntime/7.19.0"
+
+2019-11-17 16:17:19 info: [17/Nov/2019:21:17:19 +0000] "GET /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "PostmanRuntime/7.19.0"
+
+2019-11-17 16:21:05 info: [17/Nov/2019:21:21:05 +0000] "GET /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "PostmanRuntime/7.19.0"
+
+2019-11-17 16:21:09 error: 500 - MongoError: E11000 duplicate key error collection: TusTareas.tipoasignaturas index: id_1 dup key: { : null } [POST /api/tipo_asignaturas - 127.0.0.1]
+2019-11-17 16:21:09 info: [17/Nov/2019:21:21:09 +0000] "POST /api/tipo_asignaturas HTTP/1.1" 500 - 127.0.0.1 - - "-" "PostmanRuntime/7.19.0"
+
+2019-11-17 16:21:48 info: [17/Nov/2019:21:21:48 +0000] "POST /api/tipo_asignaturas HTTP/1.1" 200 - 127.0.0.1 - - "-" "PostmanRuntime/7.19.0"
+
+2019-11-17 16:31:03 info: App is running at 0.0.0.0:8080 in development mode

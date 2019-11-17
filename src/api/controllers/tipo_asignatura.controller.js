@@ -1,5 +1,5 @@
 const TipoAsignaturaService = require('../../services/tipo_asignatura.service');
-const TipoAsignatura= require('../models/tipo_asignatura'); 
+const TipoAsignatura = require('../models/tipo_asignatura'); 
 
 module.exports = {
   async getTipoAsignaturas(req, res, next)
@@ -20,14 +20,11 @@ module.exports = {
 
 
   async postTipoAsignatura(req, res, next) {
-    let tipoAsignaturaRecibida = new TipoAsignatura()
-    tipoAsignaturaRecibida.id =req.body.id;
-    tipoAsignaturaRecibida.nombre =req.body.nombre;
-    
-
-    const tipo_Asignatura_nueva = await tipoAsignaturaRecibida.postTipoAsignatura(tipoAsignaturaRecibida);
+    let tipoAsignaturaRecibida = new TipoAsignatura();
+    tipoAsignaturaRecibida.nombre_tipo =req.body.nombre_tipo;
+    const tipo_Asignatura_nueva = await TipoAsignaturaService.postTipoAsignatura(tipoAsignaturaRecibida);
 
     return res.status(200).send({ tipo_Asignatura_nueva});
-  }
+  },
 
 };

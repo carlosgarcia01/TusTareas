@@ -19,7 +19,7 @@ const Anuncio = require('../models/anuncio');
       async postAnuncio(req,res,next)
       {
 
-        let anuncio_recibido = new Anuncio()
+        let anuncio_recibido = new Anuncio();
         anuncio_recibido.título_anuncio =req.body.título_anuncio;
         anuncio_recibido.descripcion =req.body.descripcion;
         anuncio_recibido.tarifa_hora =req.body.tarifa_hora;

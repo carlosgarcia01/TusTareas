@@ -16,12 +16,7 @@ module.exports={
         return tipo_asignatura;
     },
 
-    async saveTipoAsignatura(tipo_asignatura)
-    {
-        const received_type = await TipoAsignatura.create(tipo_asignatura);
-        return received_type;
-    },
-    async postAsignatura(asignaturareq) {
+    async postTipoAsignatura(asignaturareq) {
       const asignaturaAlmacenado = await asignaturareq.save();
  
       return asignaturaAlmacenado;
